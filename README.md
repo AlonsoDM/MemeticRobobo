@@ -11,7 +11,11 @@ Este programa implementa un **Algoritmo Memético** para evolucionar comportamie
 3. Instalar el RoboboSim en unity (Seguir documentación de Robobo)
 3. Para desarrollar, esta es la documentación de librería Robobo.py: https://mintforpeople.github.io/robobo.py/robobo.html#other-methods
 ---
-
+## Ejecución
+1. Abrir RoboboSim
+2. Seleccionar un mundo "mapa"
+3. En terminal ejecutar: ``` py -3.9 test.py ```
+---
 ## Qué Hace el Código
 
 El programa evoluciona una población de estrategias de movimiento del robot a lo largo de múltiples generaciones. Cada estrategia consiste en una secuencia de comandos de movimiento (genes) que especifican velocidades de las ruedas y duraciones. El algoritmo evalúa cada estrategia ejecutándola en el robot y midiendo qué tan bien evita colisiones mientras mantiene el movimiento.
